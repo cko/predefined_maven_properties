@@ -1,0 +1,1 @@
+# predefined_maven_properties
