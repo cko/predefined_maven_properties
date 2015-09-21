@@ -10,7 +10,7 @@ Note: In Maven 3.0, all pom.* properties are deprecated. Use project.* instead!
 `${version}` equivalent to `${project.version}` (deprecated: `${pom.version}`)
 
 ## Pom/Project properties
-All elements in the pom.xml, can be referenced with the project. prefix. This list is just an example of some commonly used elements. (deprecated: `{pom.}` prefix)  
+All elements in the pom.xml, can be referenced with the project. prefix. This list is just an example of some commonly used elements. (deprecated: `${pom.}` prefix)  
 `${project.build.directory}` results in the path to your "target" directory, this is the same as `${pom.project.build.directory}`  
 `${project.build.outputDirectory}` results in the path to your "target/classes" directory  
 `${project.name}` refers to the name of the project (deprecated: ${pom.name} ).  
@@ -18,7 +18,7 @@ All elements in the pom.xml, can be referenced with the project. prefix. This li
 `${project.build.finalName}` refers to the final name of the file created when the built project is packaged
 
 ## Local user settings
-Similarly, values in the user's settings.xml can be referenced using property names with settings. prefix.
+Similarly, values in the user's settings.xml can be referenced using property names with `settings.` prefix.
 `${settings.localRepository}` refers to the path of the user's local repository
 
 ## Environment variables
