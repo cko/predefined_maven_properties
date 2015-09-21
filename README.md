@@ -13,8 +13,8 @@ Note: In Maven 3.0, all pom.* properties are deprecated. Use project.* instead!
 All elements in the pom.xml, can be referenced with the project. prefix. This list is just an example of some commonly used elements. (deprecated: `${pom.}` prefix)  
 `${project.build.directory}` results in the path to your "target" directory, this is the same as `${pom.project.build.directory}`  
 `${project.build.outputDirectory}` results in the path to your "target/classes" directory  
-`${project.name}` refers to the name of the project (deprecated: ${pom.name} ).  
-`${project.version}` refers to the version of the project (deprecated: or ${pom.version}).  
+`${project.name}` refers to the name of the project (deprecated: `${pom.name}` ).  
+`${project.version}` refers to the version of the project (deprecated: `${pom.version}`).  
 `${project.build.finalName}` refers to the final name of the file created when the built project is packaged
 
 ## Local user settings
@@ -28,7 +28,22 @@ Environment variables can be referenced using the env prefix
 `<jvm>${java.home}../bin/java.exe</jvm>`
 
 ## Java system properties
-All Java System Properties defined by the JVM.
+All Java System Properties defined by the JVM:
+`${file.separator}`
+`${java.class.path}`
+`${java.home}`
+`${java.vendor}`
+`${java.vendor.url}`
+`${java.version}`
+`${line.separator}`
+`${os.arch}`
+`${os.name}`
+`${os.version}`
+`${path.separator}`
+`${user.dir}`
+`${user.home}`
+`${user.name}`
+...
 
 ## Custom properties in the POM
 User defined properties in the pom.xml.
