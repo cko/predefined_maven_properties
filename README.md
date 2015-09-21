@@ -29,20 +29,20 @@ Environment variables can be referenced using the env prefix
 
 ## Java system properties
 All Java System Properties defined by the JVM:
-`${file.separator}`
-`${java.class.path}`
-`${java.home}`
-`${java.vendor}`
-`${java.vendor.url}`
-`${java.version}`
-`${line.separator}`
-`${os.arch}`
-`${os.name}`
-`${os.version}`
-`${path.separator}`
-`${user.dir}`
-`${user.home}`
-`${user.name}`
+`${file.separator}`  
+`${java.class.path}`  
+`${java.home}`  
+`${java.vendor}`  
+`${java.vendor.url}`  
+`${java.version}`  
+`${line.separator}`  
+`${os.arch}`  
+`${os.name}`  
+`${os.version}`  
+`${path.separator}`  
+`${user.dir}`  
+`${user.home}`  
+`${user.name}`  
 ...
 
 ## Custom properties in the POM
