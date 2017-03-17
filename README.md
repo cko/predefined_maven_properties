@@ -6,11 +6,11 @@
 Note: In Maven 3.0, all pom.* properties are deprecated. Use project.* instead!
 
 ## Built-in properties
-`${project.basedir}` represents the directory containing pom.xml (deprecated: `${basedir}`)
-`${project.baseUri}` the directory containing the pom.xml file as URI
-`${project.version}` (deprecated: `${pom.version}` and `${version}`)
-`${maven.home}`	The path to the current Maven home
-`${maven.version}`	The version number of the current Maven execution (since 3.0.4)
+`${project.basedir}` represents the directory containing pom.xml (deprecated: `${basedir}`)   
+`${project.baseUri}` the directory containing the pom.xml file as URI   
+`${project.version}` (deprecated: `${pom.version}` and `${version}`)   
+`${maven.home}`	The path to the current Maven home   
+`${maven.version}`	The version number of the current Maven execution (since 3.0.4)   
 `${maven.build.version}`	The full build version of the current Maven execution (since 3.0.4). For example, "Apache Maven 3.2.2 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19T14:51:28+01:00)".
 
 ## Pom/Project properties
