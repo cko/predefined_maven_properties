@@ -18,7 +18,8 @@ All elements in the pom.xml, can be referenced with the project. prefix. This li
 `${project.build.directory}` results in the path to your "target" directory
 `${project.build.outputDirectory}` results in the path to your "target/classes" directory  
 `${project.name}` refers to the name of the project (deprecated: `${pom.name}` ).  
-`${project.version}` refers to the version of the project (deprecated: `${pom.version}`).  
+`${project.version}` refers to the version of the project (deprecated: `${pom.version}`).
+`${project.artifactId}` refers to the artifactId of the project 
 `${project.groupId}` refers to the groupId of the project  
 `${project.build.finalName}` refers to the final name of the file created when the built project is packaged
 
