@@ -2,10 +2,10 @@
 
 *This list originated from a wiki page from Codehaus (http://docs.codehaus.org/display/MAVENUSER/MavenPropertiesGuide) which unfortunately has been gone with the shutdown of Codehaus*
 
-
-Note: In Maven 3.0, all pom.* properties are deprecated. Use project.* instead!
-
 ## Built-in properties
+
+**Note:** In Maven 3.0, all `${pom.*}` properties are deprecated. Use `${project.*}` instead!
+
 `${project.basedir}` represents the directory containing pom.xml (deprecated: `${basedir}`)   
 `${project.baseUri}` the directory containing the pom.xml file as URI   
 `${project.version}` (deprecated: `${pom.version}` and `${version}`)   
